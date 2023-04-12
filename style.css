@@ -11,8 +11,9 @@ body {background-color: #FAFAFA;
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 color: #8B8B8B;
-font-size: 16px;
-margin:0} 
+font-size: 16px;} 
+
+.wrapper {padding: 20px;}
 
 h1 {font-weight: 500; 
 font-size: 28px;
@@ -31,7 +32,8 @@ margin-bottom: 15px;
 margin-top: 60px;}
 
 .banner-img {max-width: 350px;
-margin: auto;}
+margin: auto;
+}
 
 .banner-text {max-width: 460px;
 margin: auto;
@@ -58,19 +60,20 @@ color: white}
 color:white;}
 
 
+/*sekce 1 a 2 mobile */
 
-
-/*sekce 2 sluzby delegatu */
-
-.section2 {max-width: 460px;
+.section {max-width: 460px;
 margin: auto;}
 
 .obsah-sekce {text-align: center;}
 
 .boxy {display: flex; flex-wrap: wrap;
-margin-top: 30px;}
+margin-top: 30px; 
+margin-bottom: 60px;
+}
 
 .box {flex-grow: 1; flex-basis: 100%;
+    flex-shrink: 1;
 display: flex;
 padding: 20px;
 border-radius: 20px;
@@ -86,8 +89,31 @@ box-shadow: #407BFF1F 0px 4px 6px;}
 .box-kaktus,
 .box-mapa {margin-bottom: 15px;}
 
-.box-rv,
-.box-letadlo {margin-bottom: 60px;}
+/*tablet version*/
+
+@media screen and (min-width: 640px) { 
+
+ .banner-img {max-width: 400px;}
+ .banner-text {max-width: 550px;}
+
+ .buttons {display: flex;
+    flex-wrap: nowrap;
+    max-width: 435px;}
+ 
+ .obsah-sekce {max-width: 550px;}
+
+ .boxy {display: flex;
+flex-wrap: nowrap;
+max-width: 730px;}
+
+.box {flex-basis: calc(1/3 - 40px);
+display: flex;
+justify-content: space-between;
+}
+
+ }
+
+
 
 
 
