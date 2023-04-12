@@ -7,3 +7,94 @@ html {
     box-sizing: inherit;
   }
   
+body {background-color: #FAFAFA;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+color: #8B8B8B;
+font-size: 16px;
+margin:0} 
+
+h1 {font-weight: 500; 
+font-size: 28px;
+color: #000000;
+margin: 40px 0 40px 0;
+}
+
+h1::after{content: ""; display: block; width: 60px; height: 2px; background-color: #407BFF;
+margin: auto;
+margin-top: 10px;}
+
+h2 {font-weight: 500;
+font-size: 16px;
+color: #000000;
+margin-bottom: 15px;
+margin-top: 60px;}
+
+.banner-img {max-width: 350px;
+margin: auto;}
+
+.banner-text {max-width: 460px;
+margin: auto;
+text-align: center;
+margin-bottom: 30px;}
+
+.buttons {display: flex; max-width: 220px;
+flex-wrap: wrap; 
+margin: auto;
+text-align: center;}
+
+.button {margin: auto;
+margin-bottom: 10px; 
+border-radius: 20px;
+padding: 10px 30px;
+height: 40px;
+text-decoration: none;
+font-size: 14px;}
+
+.button-dobrodruzstvi {background-color: #407BFF;
+color: white}
+
+.button-plaz {background-color: #8B8B8B;
+color:white;}
+
+
+
+
+/*sekce 2 sluzby delegatu */
+
+.section2 {max-width: 460px;
+margin: auto;}
+
+.obsah-sekce {text-align: center;}
+
+.boxy {display: flex; flex-wrap: wrap;
+margin-top: 30px;}
+
+.box {flex-grow: 1; flex-basis: 100%;
+display: flex;
+padding: 20px;
+border-radius: 20px;
+background-color: white; 
+height: 80px;
+font-size: 13px; 
+box-shadow: #407BFF1F 0px 4px 6px;}
+
+.box-obsah {margin-left: 25px;}
+
+.box-palma,
+.box-slunecnik,
+.box-kaktus,
+.box-mapa {margin-bottom: 15px;}
+
+.box-rv,
+.box-letadlo {margin-bottom: 60px;}
+
+
+
+
+
+
+
+
+
+
